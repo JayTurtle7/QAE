@@ -1,0 +1,24 @@
+<suite name="Smoke Tests">
+    <test name="Chrome Smoke Tests">
+        <parameter name="browserName" value="chrome"/>
+        <groups>
+            <run>
+                <include name="smoke" />
+            </run>
+        </groups>
+        <packages>
+            <package name="com.mindera.qae"/>
+        </packages>
+    </test>
+    <test name="Firefox Smoke Tests">
+        <parameter name="browserName" value="firefox"/>
+        <groups>
+            <run>
+                <include name="smoke" />
+            </run>
+        </groups>
+        <packages>
+            <package name="com.mindera.qae"/>
+        </packages>
+    </test>
+</suite>

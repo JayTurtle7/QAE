@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-02T09:29:54 WEST" name="Smoke Tests" finished-at="2019-09-02T09:30:41 WEST" duration-ms="46701">
+    <groups>
+      <group name="regression">
+        <method signature="AppTest.HomePageTest()[pri:0, instance:com.mindera.qae.AppTest@15d9bc04]" name="HomePageTest" class="com.mindera.qae.AppTest"/>
+        <method signature="AppTest.TableTest()[pri:0, instance:com.mindera.qae.AppTest@15d9bc04]" name="TableTest" class="com.mindera.qae.AppTest"/>
+        <method signature="AppTest.HomePageTest()[pri:0, instance:com.mindera.qae.AppTest@4461c7e3]" name="HomePageTest" class="com.mindera.qae.AppTest"/>
+        <method signature="AppTest.TableTest()[pri:0, instance:com.mindera.qae.AppTest@4461c7e3]" name="TableTest" class="com.mindera.qae.AppTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AppTest.HomePageTest()[pri:0, instance:com.mindera.qae.AppTest@15d9bc04]" name="HomePageTest" class="com.mindera.qae.AppTest"/>
+        <method signature="AppTest.TableTest()[pri:0, instance:com.mindera.qae.AppTest@15d9bc04]" name="TableTest" class="com.mindera.qae.AppTest"/>
+        <method signature="AppTest.HomePageTest()[pri:0, instance:com.mindera.qae.AppTest@4461c7e3]" name="HomePageTest" class="com.mindera.qae.AppTest"/>
+        <method signature="AppTest.TableTest()[pri:0, instance:com.mindera.qae.AppTest@4461c7e3]" name="TableTest" class="com.mindera.qae.AppTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2019-09-02T09:29:54 WEST" name="Chrome Smoke Tests" finished-at="2019-09-02T09:30:21 WEST" duration-ms="26846">
+      <class name="com.mindera.qae.AppTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.mindera.qae.AppTest@15d9bc04]" started-at="2019-09-02T09:29:54 WEST" name="setUp" finished-at="2019-09-02T09:30:09 WEST" duration-ms="15049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="test()[pri:0, instance:com.mindera.qae.AppTest@15d9bc04]" started-at="2019-09-02T09:30:09 WEST" name="test" finished-at="2019-09-02T09:30:09 WEST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="HomePageTest()[pri:0, instance:com.mindera.qae.AppTest@15d9bc04]" started-at="2019-09-02T09:30:09 WEST" name="HomePageTest" finished-at="2019-09-02T09:30:10 WEST" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTest -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.mindera.qae.AppTest@15d9bc04]" started-at="2019-09-02T09:30:10 WEST" name="after" finished-at="2019-09-02T09:30:10 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindera.qae.AppTest@15d9bc04]" started-at="2019-09-02T09:30:10 WEST" name="closeBrowser" finished-at="2019-09-02T09:30:10 WEST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.mindera.qae.AppTest@15d9bc04]" started-at="2019-09-02T09:30:10 WEST" name="setUp" finished-at="2019-09-02T09:30:11 WEST" duration-ms="787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="test()[pri:0, instance:com.mindera.qae.AppTest@15d9bc04]" started-at="2019-09-02T09:30:11 WEST" name="test" finished-at="2019-09-02T09:30:11 WEST" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="TableTest()[pri:0, instance:com.mindera.qae.AppTest@15d9bc04]" started-at="2019-09-02T09:30:11 WEST" name="TableTest" finished-at="2019-09-02T09:30:21 WEST" duration-ms="9488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TableTest -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.mindera.qae.AppTest@15d9bc04]" started-at="2019-09-02T09:30:21 WEST" name="after" finished-at="2019-09-02T09:30:21 WEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindera.qae.AppTest@15d9bc04]" started-at="2019-09-02T09:30:21 WEST" name="closeBrowser" finished-at="2019-09-02T09:30:21 WEST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.mindera.qae.AppTest -->
+    </test> <!-- Chrome Smoke Tests -->
+    <test started-at="2019-09-02T09:30:21 WEST" name="Firefox Smoke Tests" finished-at="2019-09-02T09:30:41 WEST" duration-ms="19752">
+      <class name="com.mindera.qae.AppTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.mindera.qae.AppTest@4461c7e3]" started-at="2019-09-02T09:30:21 WEST" name="setUp" finished-at="2019-09-02T09:30:26 WEST" duration-ms="4774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="test()[pri:0, instance:com.mindera.qae.AppTest@4461c7e3]" started-at="2019-09-02T09:30:26 WEST" name="test" finished-at="2019-09-02T09:30:26 WEST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="HomePageTest()[pri:0, instance:com.mindera.qae.AppTest@4461c7e3]" started-at="2019-09-02T09:30:26 WEST" name="HomePageTest" finished-at="2019-09-02T09:30:26 WEST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindera.qae.AppTest@4461c7e3]" started-at="2019-09-02T09:30:26 WEST" name="closeBrowser" finished-at="2019-09-02T09:30:28 WEST" duration-ms="2001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.mindera.qae.AppTest@4461c7e3]" started-at="2019-09-02T09:30:26 WEST" name="after" finished-at="2019-09-02T09:30:26 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.mindera.qae.AppTest@4461c7e3]" started-at="2019-09-02T09:30:28 WEST" name="setUp" finished-at="2019-09-02T09:30:31 WEST" duration-ms="3286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="test()[pri:0, instance:com.mindera.qae.AppTest@4461c7e3]" started-at="2019-09-02T09:30:31 WEST" name="test" finished-at="2019-09-02T09:30:32 WEST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="TableTest()[pri:0, instance:com.mindera.qae.AppTest@4461c7e3]" started-at="2019-09-02T09:30:32 WEST" name="TableTest" finished-at="2019-09-02T09:30:39 WEST" duration-ms="7462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TableTest -->
+        <test-method is-config="true" signature="after()[pri:0, instance:com.mindera.qae.AppTest@4461c7e3]" started-at="2019-09-02T09:30:39 WEST" name="after" finished-at="2019-09-02T09:30:39 WEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.mindera.qae.AppTest@4461c7e3]" started-at="2019-09-02T09:30:39 WEST" name="closeBrowser" finished-at="2019-09-02T09:30:41 WEST" duration-ms="1486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.mindera.qae.AppTest -->
+    </test> <!-- Firefox Smoke Tests -->
+  </suite> <!-- Smoke Tests -->
+</testng-results>

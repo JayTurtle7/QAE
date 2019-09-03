@@ -1,0 +1,6 @@
+com/mindera/qae/page/Homepage.class
+com/mindera/qae/BaseConfig.class
+com/mindera/qae/component/BaseComponent.class
+com/mindera/qae/page/BasePage.class
+com/mindera/qae/component/Table.class
+com/mindera/qae/AppTest.class
